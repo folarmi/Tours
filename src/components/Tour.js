@@ -8,9 +8,10 @@ const Tour = ({ id, title, price, details, image, removeTour }) => {
       <img src={image} alt={title} />
       <footer>
         <div className="card-body">
-          <h4>
-            {title} <span className="tour-price">&#8358;{price}</span>
-          </h4>
+          <div className="tour-info">
+            <h4>{title} </h4>
+            <h4 className="tour-price">&#8358;{price}</h4>
+          </div>
         </div>
         <p>
           {isReadMore ? details : `${details.substring(0, 200)}...`}

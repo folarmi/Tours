@@ -44,11 +44,16 @@ h2 {
   margin: 0;
 }
 
+.tour-info {
+  display: flex;
+  justify-content: space-between;
+}
+
 .tour-price {
-  background: #ebf7ff;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
-  margin-left: 10rem;
+  background: #ebf7ff;
+  color: #49a6e9;
 }
 
 .card p {
@@ -107,10 +112,6 @@ img {
   cursor: pointer;
   margin-top: 2rem;
   font-size: 1.2rem;
-}
-
-h4 {
-  color: #49a6e9;
 }
 
 footer {
